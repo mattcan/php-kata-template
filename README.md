@@ -11,10 +11,13 @@ This repository is used as a base to doing Kata with PHP.
 
 1. Pick Kata from [http://codekata.com](http://codekata.com)
 1. Clone repository to your kata folder of choice:
+
 	```sh
 	git clone https://github.com/mattcan/php-kata-base.git date_somekata
 	```
+
 1. Run Composer:
+
 	```sh
 	composer install
 	```
