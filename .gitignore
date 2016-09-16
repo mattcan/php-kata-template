@@ -1,5 +1,7 @@
-
 # Created by https://www.gitignore.io/api/vim,linux,composer
+
+### Project Specific ###
+coverage/*
 
 ### Vim ###
 # swap
