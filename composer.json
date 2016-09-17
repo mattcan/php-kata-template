@@ -14,7 +14,7 @@
 
   "scripts": {
     "post-install-cmd": [
-      "mkdir coverage"
+      "mkdir -p coverage"
     ],
     "test": [
       "@composer install",
