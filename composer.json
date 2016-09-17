@@ -1,11 +1,28 @@
 {
-    "require": {
-        "phpunit/phpunit": "5.5.*"
-    },
-    "autoload": {
-      "psr-4": {
-        "Kata\\": "src/",
-        "Kata\\Tests\\": "tests/"
-      }
+  "name": "mattcan/php-kata-template",
+
+  "require": {
+    "phpunit/phpunit": "5.5.*"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "Kata\\": "src/",
+      "Kata\\Tests\\": "tests/"
     }
+  },
+
+  "scripts": {
+    "post-install-cmd": [
+      "mkdir coverage"
+    ],
+    "test": [
+      "@composer install",
+      "phpunit"
+    ],
+    "test-coverage": [
+      "@composer install",
+      "phpunit --coverage-html=coverage"
+    ]
+  }
 }
