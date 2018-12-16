@@ -1,3 +1,5 @@
+*I no longer maintain this project, mostly because I write PHP so infrequently. If you'd like to take ownership, please contact [@mattcan](https://github.com/mattcan).*
+
 # PHP Kata Template
 
 This project is meant to be used as a template for doing Kata in PHP. The goal
